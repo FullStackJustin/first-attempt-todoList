@@ -26,7 +26,7 @@ const Form = ({ setInputText, todos, setTodos, inputText }) => {
 	};
 
 	return (
-		<div>
+		<div id="h1AndForm">
 			<h1>To-Do List</h1>
 			<form onSubmit={submitTodoHandler}>
 				<input

@@ -7,3 +7,22 @@ body {
     display: flex;
     justify-content: center;
   }
+  #h1AndForm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+  #todo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #homeFormAndList{
+    border: 1px solid black;
+    margin: auto;
+width: 60%;
+padding: 10px;
+  }
